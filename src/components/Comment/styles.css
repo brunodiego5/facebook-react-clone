@@ -1,0 +1,32 @@
+div.wrapper-content section.timeline ul.posts li.PostList ul.comments  {
+  margin-top: 20px;
+}
+div.wrapper-content section.timeline ul.posts li.PostList ul.comments li.CommentList {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+div.wrapper-content section.timeline ul.posts li.PostList ul.comments li.CommentList:first-child {
+  margin-top: 0;
+}
+
+div.wrapper-content section.timeline ul.posts li.PostList ul.comments li.CommentList img {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+}
+
+div.wrapper-content section.timeline ul.posts li.PostList ul.comments li.CommentList strong {
+  background: #EEEEEE;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  margin-left: 10px;
+}
+
+div.wrapper-content section.timeline ul.posts li.PostList ul.comments li.CommentList strong span {
+  font-size: 13px;
+  font-weight: normal;
+}

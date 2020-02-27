@@ -1,0 +1,11 @@
+.wrapper-content {
+  display: flex;  
+}
+
+div.wrapper-content section.timeline {
+  flex: 1; /*forçou o timeline oculpar o espaço restante*/
+}
+
+div.wrapper-content section.timeline ul.posts {
+  list-style: none;
+}
